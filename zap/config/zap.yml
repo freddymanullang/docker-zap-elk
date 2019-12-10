@@ -1,0 +1,6 @@
+api.disablekey: true 
+scanner.attackOnStart: true 
+view.mode: attack 
+connection.dnsTtlSuccessfulQueries: -1 
+api.addrs.addr.name: .* 
+api.addrs.addr.regex: true

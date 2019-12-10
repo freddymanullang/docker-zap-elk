@@ -1,0 +1,11 @@
+cluster.name: docker-cluster
+network.host: 0.0.0.0
+discovery.type: single-node
+http.port: 9200
+transport.tcp.port: 9300
+bootstrap.memory_lock: false
+node.data: true
+node.ingest: true
+node.master: true
+node.max_local_storage_nodes: 1
+node.name: elk
